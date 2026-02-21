@@ -34,9 +34,3 @@ with col2:
 
 # Add the third plot in a full-width row below
 st.plotly_chart(fig3, use_container_width=True)
-
-with col1:
-    st.plotly_chart(fig1, use_container_width=True)  # First plot in first column
-
-with col2:
-    st.plotly_chart(fig2, use_container_width=True)  # Second plot in second column
